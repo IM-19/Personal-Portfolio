@@ -706,7 +706,7 @@ li {
   width: 90%;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 ul {
   list-style-position: inside;
@@ -717,10 +717,22 @@ ul {
 .repo:hover {
   color: rgb(210, 217, 223);
 }
-.close {
+.close,
+.close2,
+.close3,
+.close4 {
   color: #aaaaaa;
   /* float: right; */
   font-size: 42px;
   font-weight: 100;
   cursor: pointer;
+}
+.disabled {
+  cursor: not-allowed;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.disabled:hover {
+  cursor: not-allowed;
 }
