@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/assets/logo_size-removebg-preview.png" />
+    <script src="/js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="/js/sendEmail.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@400;600&display=swap");
+    </style>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="particles-js" id="particles-js"></div>
+      <div class="section1">
+        <div class="header">
+          <div href="" class="logo">
+            <img src="/assets/logo_size-removebg-preview.png" alt="" />
+          </div>
+          <div class="tab">
+            <a id="tabs" href="#Works">Works</a>
+            <a id="tabs" href="#Projects">Projects</a>
+            <a id="tabs" href="#Contact">Contact Me</a>
+            <a href="assets/IsmatCV.pdf" id="tabs">Resume</a>
+          </div>
+          <div class="dummy"></div>
+        </div>
+        <div class="content">
+          <div class="left-side">
+            <div class="main">
+              <h1 class="upper">Ismat</h1>
+              <h1 class="lower">Maarouf</h1>
+            </div>
+
+            <div class="socials">
+              <a
+                class="instagram"
+                href="https://www.instagram.com/ismatmaarouf/"
+              >
+                <img src="/assets/instagram (1).png" alt="" />
+              </a>
+              <a
+                class="linkedin"
+                href="https://linkedin.com/in/ismat-maarouf-67638022a/"
+              >
+                <img src="/assets/linkedin.png" alt="" />
+              </a>
+              <a class="github" href="https://github.com/IM-19">
+                <img src="/assets/github-sign.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="shapes"></div>
+
+            <div class="right-content">
+              <div class="title">Front End Developer</div>
+              <div class="subtitle">Based in Dubai, UAE.</div>
+              <div class="description">
+                I am an AUS Computer Engineer graduate with a passion for Web
+                Development, football, and gaming. I aspire to be one of the
+                best at what I do with the motive to improve everyday.
+              </div>
+            </div>
+
+            <div class="footer">
+              <a class="phone" href="tel: +971503871880">P: +971 50-3871880</a>
+              <a class="email" href="mailto: ismat-maarouf@hotmail.com">
+                E: ismat-maarouf@hotmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section2" id="Works">
+        <div class="sec2-wrapper">
+          <div class="title-sec2">Work Experience</div>
+          <div class="numbers">
+            <div class="number">01</div>
+            <div class="number" id="n02">02</div>
+          </div>
+
+          <div class="main-content">
+            <div class="row">
+              <div class="sec2-left-side">
+                <div class="table-title">Web Developer Intern</div>
+                <div class="date">June 2021 - August 2021</div>
+              </div>
+              <div class="box-content">
+                Worked with a group of website developers to update and provide
+                website templates mainly using WordPress.
+              </div>
+            </div>
+            <div class="row">
+              <div class="sec2-left-side">
+                <div class="table-title">Finance Support Clerk</div>
+                <div class="date">Feb 2020 - April 2020</div>
+              </div>
+
+              <div class="box-content">
+                Worked in filing papers for AUS Finance Department. Helped in
+                organizing files and folders and assisted in paperwork.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section3" id="Projects">
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <img src="/assets/smartphone (4).png" alt="" />
+            <div class="modal-bg">
+              <h1>Mental Monitor</h1>
+            </div>
+            <div class="modal-info">
+              <div class="tech-used">
+                <div class="stack">
+                  <h1>Dev Stack Used</h1>
+                  <ul>
+                    <li style="color: #61dbfb">React-Native</li>
+                    <li style="color: #f6820d">Firebase</li>
+                    <li style="color: #e51f24">Expo Libraries</li>
+                    <li style="color: #0b77a3">Garmin API</li>
+                  </ul>
+                </div>
+
+                <a
+                  href="https://github.com/h-abdallah1/Mental-Monitor/"
+                  class="repo"
+                  >Check the Github Repository here</a
+                >
+              </div>
+
+              <span class="close">&times;</span>
+            </div>
+          </div>
+        </div>
+        <div class="title-sec2 sec3-title">Projects</div>
+        <div class="cards">
+          <span
+            class="card1"
+            data-tilt
+            data-tilt-reverse="true"
+            data-tilt-max="5"
+            data-tilt-speed="1000"
+            data-tilt-perspective="1000"
+          >
+            <div class="card-bg">
+              <div class="number">01</div>
+            </div>
+            <div class="cardicon">
+              <img src="/assets/smartphone (1).png" alt="" />
+            </div>
+            <div class="card-info">
+              <div class="card-info-wrapper">
+                <div class="card-name">Mental Monitor</div>
+                <div class="card-content">
+                  Developed a mobile application that can detect depression
+                  symptoms in a patient using mobile sensors and wearable
+                  technology.
+                </div>
+                <button class="learn-more" id="myBtn">
+                  <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                  </span>
+                  <span class="button-text">Learn More</span>
+                </button>
+              </div>
+            </div>
+          </span>
+          <span
+            class="card2"
+            data-tilt
+            data-tilt-reverse="true"
+            data-tilt-max="5"
+            data-tilt-speed="1000"
+            data-tilt-perspective="1000"
+          >
+            <div class="card-bg">
+              <div class="number">02</div>
+            </div>
+            <div class="cardicon">
+              <img src="/assets/phishing.png" alt="" />
+            </div>
+            <div class="card-info">
+              <div class="card-info-wrapper">
+                <div class="card-name">Detecting Phishing Websites</div>
+                <div class="card-content">
+                  Used machine learning algorithms to detect phishing websites.
+                </div>
+                <button class="learn-more">
+                  <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                  </span>
+                  <span class="button-text">Learn More</span>
+                </button>
+              </div>
+            </div>
+          </span>
+          <span
+            class="card3"
+            data-tilt
+            data-tilt-reverse="true"
+            data-tilt-max="5"
+            data-tilt-speed="1000"
+            data-tilt-perspective="1000"
+          >
+            <div class="card-bg">
+              <div class="number">03</div>
+            </div>
+            <div class="cardicon">
+              <img src="/assets/book (1).png" alt="" />
+            </div>
+            <div class="card-info">
+              <div class="card-info-wrapper">
+                <div class="card-name">AUS eBook Trading</div>
+                <div class="card-content">
+                  Developed an e-commerce website for AUS students to trade
+                  books and other content.
+                </div>
+                <button class="learn-more">
+                  <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                  </span>
+                  <span class="button-text">Learn More</span>
+                </button>
+              </div>
+            </div>
+          </span>
+          <span
+            class="card4"
+            data-tilt
+            data-tilt-reverse="true"
+            data-tilt-max="5"
+            data-tilt-speed="1000"
+            data-tilt-perspective="1000"
+          >
+            <div class="card-bg">
+              <div class="number">04</div>
+            </div>
+            <div class="cardicon">
+              <img src="/assets/rock.png" alt="" />
+            </div>
+            <div class="card-info">
+              <div class="card-info-wrapper">
+                <div class="card-name">Rock, Paper, Scissors</div>
+                <div class="card-content">
+                  Developed a Rock, Paper, Scissors game from scratch.
+                  <br />
+                  <a href="https://rps-games.netlify.app/">Check it out here</a>
+                </div>
+                <button class="learn-more">
+                  <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                  </span>
+                  <span class="button-text">Learn More</span>
+                </button>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div class="section4" id="Contact">
+        <div class="get-in-touch">
+          <div class="contact-header">Talk Or Meet With Me</div>
+          <div class="phone-sec4">
+            <a href="tel:+971503871880">
+              <div class="icon">
+                <img src="/assets/phone-call (1).png" alt="" srcset="" />
+              </div>
+            </a>
+            <div class="contact-info">
+              <span id="small">Call Me Now</span>
+              <a href="tel:+971503871880"
+                ><span id="big">+971 50 3871880</span></a
+              >
+            </div>
+          </div>
+          <div class="chat">
+            <a href="mailto:ismat-maarouf@hotmail.com"
+              ><div class="icon">
+                <img src="/assets/chat (1).png" alt="" /></div
+            ></a>
+            <div class="contact-info">
+              <span id="small">Chat With Me</span>
+              <a href="mailto:ismat-maarouf@hotmail.com"
+                ><span id="big">ismat-maarouf@hotmail.com</span></a
+              >
+            </div>
+          </div>
+          <div class="third">
+            <div class="icon">
+              <img src="/assets/coffee.png" alt="" />
+            </div>
+            <div class="contact-info">
+              <span id="small">Get Me Here</span>
+              <span id="big">Corniche, Sharjah, UAE</span>
+            </div>
+          </div>
+        </div>
+        <div class="work-together">
+          <div class="work-header">Let Me Know Here</div>
+          <form class="form" id="myForm">
+            <input id="emailSubject" class="form-name" placeholder="Subject" />
+            <textarea
+              class="form-message"
+              id="emailMessage"
+              placeholder="What's on your mind?"
+            ></textarea>
+          </form>
+          <a class="contact-button" id="button" onclick="javscript:sendEmail()"
+            >Send</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script src="/js/modal.js"></script>
+  </body>
+</html>
